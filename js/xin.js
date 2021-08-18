@@ -1,5 +1,4 @@
-<script>
-    (function(window,document,undefined){
+(function(window,document,undefined){
 var hearts = [];
 window.requestAnimationFrame = (function(){
 return window.requestAnimationFrame ||
@@ -65,4 +64,3 @@ function randomColor(){
 return "rgb("+(~~(Math.random()*255))+","+(~~(Math.random()*255))+","+(~~(Math.random()*255))+")";
 }
 })(window,document);
-</script>
