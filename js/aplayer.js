@@ -15,8 +15,8 @@
         {
           name: 'home',
           artist: 'artist1',
-          url: '/songs/hjbanzou.mp3',
-          cover: '/img/avatar.png'
+          url: '/shubihu.github.io/songs/hjbanzou.mp3',
+          cover: '/shubihu.github.io/img/avatar.png'
         }
       ]
     });
