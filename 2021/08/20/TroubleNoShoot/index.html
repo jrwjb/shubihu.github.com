@@ -233,7 +233,7 @@
 <h6 id="首先配置github及生成ssh秘钥，执行"><a href="#首先配置github及生成ssh秘钥，执行" class="headerlink" title="首先配置github及生成ssh秘钥，执行"></a>首先配置github及生成ssh秘钥，执行</h6><figure class="highlight verilog"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><code class="hljs verilog">git <span class="hljs-keyword">config</span> --<span class="hljs-keyword">global</span> user<span class="hljs-variable">.email</span> <span class="hljs-string">&quot;you@example.com&quot;</span>    ## 我的 git <span class="hljs-keyword">config</span> --<span class="hljs-keyword">global</span> user<span class="hljs-variable">.email</span> <span class="hljs-string">&quot;jrwjb@sina.com&quot;</span>   <br>git <span class="hljs-keyword">config</span> --<span class="hljs-keyword">global</span> user<span class="hljs-variable">.name</span> <span class="hljs-string">&quot;Your Name&quot;</span>  ## 我的 git <span class="hljs-keyword">config</span> --<span class="hljs-keyword">global</span> user<span class="hljs-variable">.name</span> <span class="hljs-string">&quot;jrwjb&quot;</span><br>ssh-keygen        ## 一路回车即可<br></code></pre></td></tr></table></figure>
 <p>执行完后会在家目录的.ssh下生成下面几个文件</p>
 <figure class="highlight clean"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><code class="hljs clean">id_rsa   ## 私钥<br>id_rsa.pub  ## 共钥<br></code></pre></td></tr></table></figure>
-<p>然后把公钥的内容添加到github上即可。<br><img src="/img/article/gitssh.jpg" srcset="/shubihu.github.io/img/loading.gif" lazyload></p>
+<p>然后把公钥的内容添加到github上即可。<br><img src="/shubihu.github.io/img/article/gitssh.jpg" srcset="/shubihu.github.io/img/loading.gif" lazyload></p>
 <h6 id="回到最开始的问题，升级hexo、node。"><a href="#回到最开始的问题，升级hexo、node。" class="headerlink" title="回到最开始的问题，升级hexo、node。"></a>回到最开始的问题，升级hexo、node。</h6><p>因为是新系统，所以相对简单些，直接安装新版的node，可以从官网下载最新的稳定版进行安装，不过我嫌麻烦懒得去下载，所以参考了这篇文章进行安装。</p>
 <iframe src="https://www.myfreax.com/how-to-install-node-js-on-ubuntu-18-04/" width="100%" height="500" name="topFrame" scrolling="yes"  noresize="noresize" frameborder="0" id="topFrame"></iframe>
 
@@ -507,5 +507,10 @@
 <script  src="/shubihu.github.io/js/boot.js" ></script>
 
 
-</body>
+<!-- hexo injector body_end start -->
+  <div id="aplayer"></div>
+  <link defer rel="stylesheet" href="https://cdn.staticfile.org/aplayer/1.10.1/APlayer.min.css" />
+  <script src="https://cdn.staticfile.org/aplayer/1.10.1/APlayer.min.js"></script>
+  <script defer src="/js/aplayer.js"></script>
+<!-- hexo injector body_end end --></body>
 </html>
