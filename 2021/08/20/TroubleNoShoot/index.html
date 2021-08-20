@@ -18,9 +18,25 @@
   <meta name="author" content="John Doe">
   <meta name="keywords" content="">
   
-  <title>标签 - TroubleShoot - 梳碧湖</title>
+  <title>Trouble No Shoot - 梳碧湖</title>
 
   <link  rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" />
+
+
+  <link  rel="stylesheet" href="https://cdn.jsdelivr.net/npm/github-markdown-css@4.0.0/github-markdown.min.css" />
+  <link  rel="stylesheet" href="/shubihu.github.io/lib/hint/hint.min.css" />
+
+  
+    
+    
+      
+      <link  rel="stylesheet" href="https://cdn.jsdelivr.net/npm/highlight.js@10.7.2/styles/github-gist.min.css" />
+    
+  
+
+  
+    <link  rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.css" />
+  
 
 
 
@@ -48,7 +64,7 @@
 
 
 <body>
-  <header style="height: 80vh;">
+  <header style="height: 70vh;">
     <nav id="navbar" class="navbar fixed-top  navbar-expand-lg navbar-dark scrolling-navbar">
   <div class="container">
     <a class="navbar-brand"
@@ -142,22 +158,55 @@
 </nav>
 
     <div class="banner" id="banner" parallax=true
-         style="background: url('/shubihu.github.io/img/yahaha1.jpg') no-repeat center center;
+         style="background: url('/shubihu.github.io/img/yahaha.jpg') no-repeat center center;
            background-size: cover;">
       <div class="full-bg-img">
         <div class="mask flex-center" style="background-color: rgba(0, 0, 0, 0.3)">
           <div class="page-header text-center fade-in-up">
-            <span class="h2" id="subtitle" title="标签 - TroubleShoot">
+            <span class="h2" id="subtitle" title="Trouble No Shoot">
               
             </span>
 
             
+              <div class="mt-3">
+  
+  
+    <span class="post-meta">
+      <i class="iconfont icon-date-fill" aria-hidden="true"></i>
+      <time datetime="2021-08-20 10:49" pubdate>
+        2021年8月20日 上午
+      </time>
+    </span>
+  
+</div>
+
+<div class="mt-1">
+  
+    
+    <span class="post-meta mr-2">
+      <i class="iconfont icon-chart"></i>
+      474 字
+    </span>
+  
+
+  
+    
+    <span class="post-meta mr-2">
+      <i class="iconfont icon-clock-fill"></i>
+      
+      
+      5
+       分钟
+    </span>
+  
+
+  
+  
+</div>
+
+            
           </div>
 
-          
-            <div class="scroll-down-bar">
-              <i class="iconfont icon-arrowdown"></i>
-            </div>
           
         </div>
       </div>
@@ -166,46 +215,96 @@
 
   <main>
     
-      <div class="container nopadding-x-md">
-        <div class="py-5" id="board"
-          >
-          
-          <div class="container">
-            <div class="row">
-              <div class="col-12 col-md-10 m-auto">
-                
-
-<div class="list-group">
-  <p class="h4">共计 2 篇文章</p>
-  <hr>
-  
-  
-    
       
-      <p class="h5">2021</p>
-    
-    <a href="/shubihu.github.io/2021/08/20/TroubleNoShoot/" class="list-group-item list-group-item-action">
-      <span class="archive-post-title">Trouble No Shoot</span>
-      <time style="float: right;">08-20</time>
-    </a>
-  
-    
-    <a href="/shubihu.github.io/2021/08/12/%E7%9F%A5%E7%BD%91%E7%BE%8A%E6%AF%9B/" class="list-group-item list-group-item-action">
-      <span class="archive-post-title">知网羊毛</span>
-      <time style="float: right;">08-12</time>
-    </a>
-  
-</div>
 
-
-
-
-
-              </div>
+<div class="container-fluid nopadding-x">
+  <div class="row nomargin-x">
+    <div class="d-none d-lg-block col-lg-2"></div>
+    <div class="col-lg-8 nopadding-x-md">
+      <div class="container nopadding-x-md" id="board-ctn">
+        <div class="py-5" id="board">
+          <article class="post-content mx-auto">
+            <!-- SEO header -->
+            <h1 style="display: none">Trouble No Shoot</h1>
+            
+            <div class="markdown-body">
+              <h6 id="升级hexo遇到的问题"><a href="#升级hexo遇到的问题" class="headerlink" title="升级hexo遇到的问题"></a>升级hexo遇到的问题</h6><p>hexo的一个插件需要5.0以上的版本，看了下自己安装的是4.3的版本，所以想着升级一下。查了半天也没找到有效的方法。之后又查看了node的版本看着也很低，想升级的心又来了。折腾了半天愣是没升级成功，还把系统搞坏了，apt、dpkg这些也都没法用了。网上的资料有时候也不能盲目跟着做，还是用root账户删的，真是细思极恐，这要是公司的生产环境，这估计是要被祭天的。估计我也是仗着这是自己电脑里的子系统才敢这么胡作非为。系统坏了，本来想挽救一下的，发现越挽救问题越大。顺放弃。。。于是重新卸载Linux子系统，再重新安装，前后没花10分钟。果然还是微软baba的子系统安装卸载方便啊。<br>系统重新安装了，很多东西就要重新配置，比如github的免密提交等，这里也简单记录下。</p>
+<h6 id="首先配置github及生成ssh秘钥，执行"><a href="#首先配置github及生成ssh秘钥，执行" class="headerlink" title="首先配置github及生成ssh秘钥，执行"></a>首先配置github及生成ssh秘钥，执行</h6><figure class="highlight verilog"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><code class="hljs verilog">git <span class="hljs-keyword">config</span> --<span class="hljs-keyword">global</span> user<span class="hljs-variable">.email</span> <span class="hljs-string">&quot;you@example.com&quot;</span>    ## 我的 git <span class="hljs-keyword">config</span> --<span class="hljs-keyword">global</span> user<span class="hljs-variable">.email</span> <span class="hljs-string">&quot;jrwjb@sina.com&quot;</span>   <br>git <span class="hljs-keyword">config</span> --<span class="hljs-keyword">global</span> user<span class="hljs-variable">.name</span> <span class="hljs-string">&quot;Your Name&quot;</span>  ## 我的 git <span class="hljs-keyword">config</span> --<span class="hljs-keyword">global</span> user<span class="hljs-variable">.name</span> <span class="hljs-string">&quot;jrwjb&quot;</span><br>ssh-keygen        ## 一路回车即可<br></code></pre></td></tr></table></figure>
+<p>执行完后会在家目录的.ssh下生成下面几个文件</p>
+<figure class="highlight clean"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><code class="hljs clean">id_rsa   ## 私钥<br>id_rsa.pub  ## 共钥<br></code></pre></td></tr></table></figure>
+<p>然后把公钥的内容添加到github上即可。<br><img src="/img/article/gitssh.jpg" srcset="/shubihu.github.io/img/loading.gif" lazyload></p>
+<h6 id="回到最开始的问题，升级hexo、node。"><a href="#回到最开始的问题，升级hexo、node。" class="headerlink" title="回到最开始的问题，升级hexo、node。"></a>回到最开始的问题，升级hexo、node。</h6><p>因为是新系统，所以相对简单些，直接安装新版的node，可以从官网下载最新的稳定版进行安装，不过我嫌麻烦懒得去下载，所以参考了这篇文章进行安装。</p>
+<iframe src="https://www.myfreax.com/how-to-install-node-js-on-ubuntu-18-04/" width="100%" height="500" name="topFrame" scrolling="yes"  noresize="noresize" frameborder="0" id="topFrame"></iframe>
+最后是升级hexo，同样的参考了这篇文章
+<iframe src="https://xmuli.tech/posts/cb1e6c4f/" width="100%" height="500" name="topFrame" scrolling="yes"  noresize="noresize" frameborder="0" id="topFrame"></iframe>
             </div>
-          </div>
+            <hr>
+            <div>
+              <div class="post-metas mb-3">
+                
+                  <div class="post-meta mr-3">
+                    <i class="iconfont icon-category"></i>
+                    
+                      <a class="hover-with-bg" href="/shubihu.github.io/categories/TroubleShoot/">TroubleShoot</a>
+                    
+                  </div>
+                
+                
+                  <div class="post-meta">
+                    <i class="iconfont icon-tags"></i>
+                    
+                      <a class="hover-with-bg" href="/shubihu.github.io/tags/TroubleShoot/">TroubleShoot</a>
+                    
+                  </div>
+                
+              </div>
+              
+                <p class="note note-warning">
+                  
+                    本博客所有文章除特别声明外，均采用 <a target="_blank" href="https://creativecommons.org/licenses/by-sa/4.0/deed.zh" rel="nofollow noopener noopener">CC BY-SA 4.0 协议</a> ，转载请注明出处！
+                  
+                </p>
+              
+              
+                <div class="post-prevnext">
+                  <article class="post-prev col-6">
+                    
+                    
+                  </article>
+                  <article class="post-next col-6">
+                    
+                    
+                      <a href="/shubihu.github.io/2021/08/16/PythonSortAlgorithm/">
+                        <span class="hidden-mobile">Python Sort Algorithm</span>
+                        <span class="visible-mobile">下一篇</span>
+                        <i class="iconfont icon-arrowright"></i>
+                      </a>
+                    
+                  </article>
+                </div>
+              
+            </div>
+
+            
+          </article>
         </div>
       </div>
+    </div>
+    
+      <div class="d-none d-lg-block col-lg-2 toc-container" id="toc-ctn">
+        <div id="toc">
+  <p class="toc-header"><i class="iconfont icon-list"></i>&nbsp;目录</p>
+  <div class="toc-body" id="toc-body"></div>
+</div>
+
+      </div>
+    
+  </div>
+</div>
+
+<!-- Custom -->
+
+
     
 
     
@@ -310,9 +409,15 @@
 
 
 
+  <script  src="https://cdn.jsdelivr.net/npm/tocbot@4.12.3/dist/tocbot.min.js" ></script>
 
 
 
+  <script  src="https://cdn.jsdelivr.net/npm/@fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.js" ></script>
+
+
+
+  <script  src="https://cdn.jsdelivr.net/npm/anchor-js@4.3.1/anchor.min.js" ></script>
 
 
 
