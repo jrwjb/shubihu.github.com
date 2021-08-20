@@ -2,6 +2,13 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>http://jrwjb.github.io/shubihu.github.io/2021/08/20/%E6%B0%B4%E4%B8%80%E7%AF%87/</loc>
+    
+    <lastmod>2021-08-20</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>http://jrwjb.github.io/shubihu.github.io/2021/08/20/TroubleNoShoot/</loc>
     
     <lastmod>2021-08-20</lastmod>
@@ -74,6 +81,13 @@
   </url>
   
   <url>
+    <loc>http://jrwjb.github.io/shubihu.github.io/tags/%E5%88%92%E6%B0%B4%E6%91%B8%E9%B1%BC/</loc>
+    <lastmod>2021-08-20</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>http://jrwjb.github.io/shubihu.github.io/tags/TroubleShoot/</loc>
     <lastmod>2021-08-20</lastmod>
     <changefreq>daily</changefreq>
@@ -91,6 +105,13 @@
   
   <url>
     <loc>http://jrwjb.github.io/shubihu.github.io/categories/Linux/</loc>
+    <lastmod>2021-08-20</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://jrwjb.github.io/shubihu.github.io/categories/Working/</loc>
     <lastmod>2021-08-20</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
