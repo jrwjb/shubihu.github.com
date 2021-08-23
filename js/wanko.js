@@ -1,5 +1,5 @@
 var jsonModel = [
-    "https://unpkg.com/live2d-widget-model-wanko@1.0.5/assets/wanko.model.json"// 小帅哥
+    "https://unpkg.com/live2d-widget-model-wanko@1.0.5/assets/wanko.model.json"
     ];
     L2Dwidget.init({ 
         "model": { 
@@ -8,12 +8,12 @@ var jsonModel = [
         }, 
         "display": { 
             "position": "right", // 位置left、right
-            "width": 200, // 宽度
-            "height": 300, // 高度
+            "width": 120, // 宽度
+            "height": 220, // 高度
             "hOffset": 10, // 横向边距
             "vOffset": 0 // 众向边距
         }, 
         "mobile": { 
-            "show": false // 手机是否显示
+            "show": true // 手机是否显示
         },
     });
