@@ -10,8 +10,8 @@ var jsonModel = [
             "position": "right", // 位置left、right
             "width": 120, // 宽度
             "height": 220, // 高度
-            "hOffset": 0, // 横向边距
-            "vOffset": 0 // 众向边距
+            "hOffset": -10, // 横向边距
+            "vOffset": -50 // 众向边距
         }, 
         "mobile": { 
             "show": true // 手机是否显示
