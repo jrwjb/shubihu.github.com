@@ -10,7 +10,7 @@ var jsonModel = [
             "position": "right", // 位置left、right
             "width": 120, // 宽度
             "height": 220, // 高度
-            "hOffset": 10, // 横向边距
+            "hOffset": 0, // 横向边距
             "vOffset": 0 // 众向边距
         }, 
         "mobile": { 
