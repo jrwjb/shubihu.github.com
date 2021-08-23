@@ -74,13 +74,6 @@
 
   
   <url>
-    <loc>http://jrwjb.github.io/shubihu.github.io/tags/Linux/</loc>
-    <lastmod>2021-08-23</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
     <loc>http://jrwjb.github.io/shubihu.github.io/tags/Python/</loc>
     <lastmod>2021-08-23</lastmod>
     <changefreq>daily</changefreq>
@@ -88,7 +81,7 @@
   </url>
   
   <url>
-    <loc>http://jrwjb.github.io/shubihu.github.io/tags/TroubleShoot/</loc>
+    <loc>http://jrwjb.github.io/shubihu.github.io/tags/Linux/</loc>
     <lastmod>2021-08-23</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
@@ -96,6 +89,13 @@
   
   <url>
     <loc>http://jrwjb.github.io/shubihu.github.io/tags/%E5%88%92%E6%B0%B4%E6%91%B8%E9%B1%BC/</loc>
+    <lastmod>2021-08-23</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://jrwjb.github.io/shubihu.github.io/tags/TroubleShoot/</loc>
     <lastmod>2021-08-23</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
@@ -111,13 +111,6 @@
 
   
   <url>
-    <loc>http://jrwjb.github.io/shubihu.github.io/categories/Linux/</loc>
-    <lastmod>2021-08-23</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
     <loc>http://jrwjb.github.io/shubihu.github.io/categories/Python/</loc>
     <lastmod>2021-08-23</lastmod>
     <changefreq>daily</changefreq>
@@ -125,7 +118,7 @@
   </url>
   
   <url>
-    <loc>http://jrwjb.github.io/shubihu.github.io/categories/TroubleShoot/</loc>
+    <loc>http://jrwjb.github.io/shubihu.github.io/categories/Linux/</loc>
     <lastmod>2021-08-23</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
@@ -133,6 +126,13 @@
   
   <url>
     <loc>http://jrwjb.github.io/shubihu.github.io/categories/Working/</loc>
+    <lastmod>2021-08-23</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://jrwjb.github.io/shubihu.github.io/categories/TroubleShoot/</loc>
     <lastmod>2021-08-23</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
