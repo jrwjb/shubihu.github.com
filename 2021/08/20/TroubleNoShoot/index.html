@@ -56,7 +56,7 @@
 
   <script id="fluid-configs">
     var Fluid = window.Fluid || {};
-    var CONFIG = {"hostname":"jrwjb.github.io","root":"/shubihu.github.io/","version":"1.8.11","typing":{"enable":true,"typeSpeed":70,"cursorChar":"&#x1f497","loop":false},"anchorjs":{"enable":true,"element":"h1,h2,h3,h4,h5,h6","placement":"right","visible":"hover","icon":"❡"},"progressbar":{"enable":true,"height_px":3,"color":"#29d","options":{"showSpinner":false,"trickleSpeed":100}},"copy_btn":true,"image_zoom":{"enable":true,"img_url_replace":["",""]},"toc":{"enable":true,"headingSelector":"h1,h2,h3,h4,h5,h6","collapseDepth":0},"lazyload":{"enable":true,"loading_img":"/img/loading.gif","onlypost":false,"offset_factor":2},"web_analytics":{"enable":true,"baidu":null,"google":null,"gtag":null,"tencent":{"sid":null,"cid":null},"woyaola":null,"cnzz":null,"leancloud":{"app_id":"FOWqJriwiUxghpNnDaD7X3ao-gzGzoHsz","app_key":"wgi1Wsw2eg7be0kqLc6vhVHj","server_url":"https://fowqjriw.lc-cn-n1-shared.com"}},"search_path":"https://raw.githubusercontent.com/jrwjb/shubihu.github.io/master/local-search.xml"};
+    var CONFIG = {"hostname":"jrwjb.github.io","root":"/shubihu.github.io/","version":"1.8.11","typing":{"enable":true,"typeSpeed":70,"cursorChar":"&#x1f497","loop":false},"anchorjs":{"enable":true,"element":"h1,h2,h3,h4,h5,h6","placement":"right","visible":"hover","icon":"❡"},"progressbar":{"enable":true,"height_px":3,"color":"#29d","options":{"showSpinner":false,"trickleSpeed":100}},"copy_btn":true,"image_zoom":{"enable":true,"img_url_replace":["",""]},"toc":{"enable":true,"headingSelector":"h1,h2,h3,h4,h5,h6","collapseDepth":0},"lazyload":{"enable":true,"loading_img":"/img/loading.gif","onlypost":false,"offset_factor":2},"web_analytics":{"enable":true,"baidu":null,"google":null,"gtag":null,"tencent":{"sid":null,"cid":null},"woyaola":null,"cnzz":null,"leancloud":{"app_id":"FOWqJriwiUxghpNnDaD7X3ao-gzGzoHsz","app_key":"wgi1Wsw2eg7be0kqLc6vhVHj","server_url":"https://fowqjriw.lc-cn-n1-shared.com"}},"search_path":"/shubihu.github.io/local-search.xml"};
   </script>
   <script  src="/shubihu.github.io/js/utils.js" ></script>
   <script  src="/shubihu.github.io/js/color-schema.js" ></script>
@@ -185,7 +185,7 @@
     
     <span class="post-meta mr-2">
       <i class="iconfont icon-chart"></i>
-      475 字
+      639 字
     </span>
   
 
@@ -195,7 +195,7 @@
       <i class="iconfont icon-clock-fill"></i>
       
       
-      5
+      7
        分钟
     </span>
   
@@ -235,9 +235,16 @@
 <figure class="highlight clean"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><code class="hljs clean">id_rsa   ## 私钥<br>id_rsa.pub  ## 共钥<br></code></pre></td></tr></table></figure>
 <p>然后把公钥的内容添加到github上即可。<br><img src="/shubihu.github.io/img/article/gitssh.jpg" srcset="/shubihu.github.io/img/loading.gif" lazyload></p>
 <h5 id="回到最开始的问题，升级hexo、node。"><a href="#回到最开始的问题，升级hexo、node。" class="headerlink" title="回到最开始的问题，升级hexo、node。"></a>回到最开始的问题，升级hexo、node。</h5><p>因为是新系统，所以相对简单些，直接安装新版的node，可以从官网下载最新的稳定版进行安装，不过我嫌麻烦懒得去下载，所以参考了这篇文章进行安装。</p>
-<iframe src="https://www.myfreax.com/how-to-install-node-js-on-ubuntu-18-04/" width="100%" height="500" name="topFrame" scrolling="yes"  noresize="noresize" frameborder="0" id="topFrame"></iframe>
+<figure class="highlight awk"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><code class="hljs awk"><span class="hljs-comment">## 使用nvm进行安装</span><br>curl -o- https:<span class="hljs-regexp">//</span>raw.githubusercontent.com<span class="hljs-regexp">/nvm-sh/</span>nvm<span class="hljs-regexp">/v0.35.3/i</span>nstall.sh | bash<br>nvm install node<br></code></pre></td></tr></table></figure>
+<!-- <iframe src="https://www.myfreax.com/how-to-install-node-js-on-ubuntu-18-04/" width="100%" height="500" name="topFrame" scrolling="yes"  noresize="noresize" frameborder="0" id="topFrame"></iframe> -->
+<h5 id="最后是升级hexo，同样的参考了这篇文章"><a href="#最后是升级hexo，同样的参考了这篇文章" class="headerlink" title="最后是升级hexo，同样的参考了这篇文章"></a>最后是升级hexo，同样的参考了这篇文章</h5><figure class="highlight coffeescript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br></pre></td><td class="code"><pre><code class="hljs coffeescript"><span class="hljs-comment"># 使用淘宝源的 cnpm 替换 npm</span><br><span class="hljs-built_in">npm</span> install -g cnpm --registry=https://registry.<span class="hljs-built_in">npm</span>.taobao.org<br><br>cnpm install -g cnpm                 <span class="hljs-comment"># 升级 npm</span><br>cnpm cache clean -f                 <span class="hljs-comment"># 清除 npm 缓存</span><br><br>===更新 hexo: 进入 blog 目录，执行如下命令=== <br><span class="hljs-comment"># 更新 package.json 中的 hexo 及个插件版本</span><br>cnpm install -g <span class="hljs-built_in">npm</span>-check           <span class="hljs-comment"># 检查之前安装的插件，都有哪些是可以升级的 </span><br>cnpm install -g <span class="hljs-built_in">npm</span>-upgrade         <span class="hljs-comment"># 升级系统中的插件</span><br><span class="hljs-built_in">npm</span>-check<br><span class="hljs-built_in">npm</span>-upgrade<br><br><span class="hljs-comment"># 更新 hexo 及所有插件</span><br>cnpm update<br><br><span class="hljs-comment"># 确认 hexo 已经更新</span><br>hexo -v<br></code></pre></td></tr></table></figure>
+<!-- <iframe src="https://xmuli.tech/posts/cb1e6c4f/" width="100%" height="500" name="topFrame" scrolling="yes"  noresize="noresize" frameborder="0" id="topFrame"></iframe> -->
+<p>参考</p>
+<ul>
+<li><a target="_blank" rel="noopener" href="https://xmuli.tech/posts/cb1e6c4f">https://xmuli.tech/posts/cb1e6c4f</a></li>
+<li><a target="_blank" rel="noopener" href="https://www.myfreax.com/how-to-install-node-js-on-ubuntu-18-04">https://www.myfreax.com/how-to-install-node-js-on-ubuntu-18-04</a></li>
+</ul>
 
-<h5 id="最后是升级hexo，同样的参考了这篇文章"><a href="#最后是升级hexo，同样的参考了这篇文章" class="headerlink" title="最后是升级hexo，同样的参考了这篇文章"></a>最后是升级hexo，同样的参考了这篇文章</h5><iframe src="https://xmuli.tech/posts/cb1e6c4f/" width="100%" height="500" name="topFrame" scrolling="yes"  noresize="noresize" frameborder="0" id="topFrame"></iframe>
             </div>
             <hr>
             <div>
