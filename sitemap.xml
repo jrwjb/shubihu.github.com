@@ -74,6 +74,13 @@
 
   
   <url>
+    <loc>http://jrwjb.github.io/shubihu.github.io/tags/Linux/</loc>
+    <lastmod>2021-08-23</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>http://jrwjb.github.io/shubihu.github.io/tags/Python/</loc>
     <lastmod>2021-08-23</lastmod>
     <changefreq>daily</changefreq>
@@ -81,7 +88,7 @@
   </url>
   
   <url>
-    <loc>http://jrwjb.github.io/shubihu.github.io/tags/Linux/</loc>
+    <loc>http://jrwjb.github.io/shubihu.github.io/tags/TroubleShoot/</loc>
     <lastmod>2021-08-23</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
@@ -101,21 +108,7 @@
     <priority>0.6</priority>
   </url>
   
-  <url>
-    <loc>http://jrwjb.github.io/shubihu.github.io/tags/TroubleShoot/</loc>
-    <lastmod>2021-08-23</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
 
-  
-  <url>
-    <loc>http://jrwjb.github.io/shubihu.github.io/categories/Python/</loc>
-    <lastmod>2021-08-23</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
   
   <url>
     <loc>http://jrwjb.github.io/shubihu.github.io/categories/Linux/</loc>
@@ -125,7 +118,7 @@
   </url>
   
   <url>
-    <loc>http://jrwjb.github.io/shubihu.github.io/categories/Working/</loc>
+    <loc>http://jrwjb.github.io/shubihu.github.io/categories/Python/</loc>
     <lastmod>2021-08-23</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
@@ -133,6 +126,13 @@
   
   <url>
     <loc>http://jrwjb.github.io/shubihu.github.io/categories/TroubleShoot/</loc>
+    <lastmod>2021-08-23</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://jrwjb.github.io/shubihu.github.io/categories/Working/</loc>
     <lastmod>2021-08-23</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
