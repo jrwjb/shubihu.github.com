@@ -15,8 +15,8 @@
         {
           name: 'home',
           // artist: 'artist1',
-          url: '/shubihu.github.io/songs/home.mp3',
-          cover: '/shubihu.github.io/img/avatar.png'
+          url: '/songs/home.mp3',
+          cover: '/img/avatar.png'
         }
       ]
     });
