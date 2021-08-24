@@ -8,8 +8,8 @@ var jsonModel = [
         }, 
         "display": { 
             "position": "right", // 位置left、right
-            "width": 120, // 宽度
-            "height": 220, // 高度
+            "width": 100, // 宽度
+            "height": 200, // 高度
             "hOffset": -10, // 横向边距
             "vOffset": -50 // 众向边距
         }, 
