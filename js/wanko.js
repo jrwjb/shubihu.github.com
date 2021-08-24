@@ -15,5 +15,6 @@ var jsonModel = [
         }, 
         "mobile": { 
             "show": true // 手机是否显示
+            "scale": 0.5 // 移动设备上的缩放
         },
     });
