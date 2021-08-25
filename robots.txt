@@ -1,2 +1,4 @@
 User-agent: *
 Allow: /
+
+Sitemap: https://shubihu.github.io/sitemap.xml
