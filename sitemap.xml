@@ -88,13 +88,6 @@
 
   
   <url>
-    <loc>https://shubihu.github.io/tags/Python/</loc>
-    <lastmod>2021-08-25</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
     <loc>https://shubihu.github.io/tags/Linux/</loc>
     <lastmod>2021-08-25</lastmod>
     <changefreq>daily</changefreq>
@@ -102,7 +95,14 @@
   </url>
   
   <url>
-    <loc>https://shubihu.github.io/tags/%E8%96%85%E7%BE%8A%E6%AF%9B/</loc>
+    <loc>https://shubihu.github.io/tags/Python/</loc>
+    <lastmod>2021-08-25</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://shubihu.github.io/tags/TroubleShoot/</loc>
     <lastmod>2021-08-25</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
@@ -116,7 +116,7 @@
   </url>
   
   <url>
-    <loc>https://shubihu.github.io/tags/TroubleShoot/</loc>
+    <loc>https://shubihu.github.io/tags/%E8%96%85%E7%BE%8A%E6%AF%9B/</loc>
     <lastmod>2021-08-25</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
@@ -125,14 +125,14 @@
 
   
   <url>
-    <loc>https://shubihu.github.io/categories/Python/</loc>
+    <loc>https://shubihu.github.io/categories/Linux/</loc>
     <lastmod>2021-08-25</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
-    <loc>https://shubihu.github.io/categories/Linux/</loc>
+    <loc>https://shubihu.github.io/categories/Python/</loc>
     <lastmod>2021-08-25</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
