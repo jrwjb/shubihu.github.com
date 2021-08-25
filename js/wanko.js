@@ -14,7 +14,7 @@ var jsonModel = [
             "vOffset": -50 // 众向边距
         }, 
         "mobile": { 
-            "show": true, // 手机是否显示
+            "show": false, // 手机是否显示
             "scale": 0.5 // 移动设备上的缩放
         },
     });
