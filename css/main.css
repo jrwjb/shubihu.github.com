@@ -1971,9 +1971,3 @@ note-default {
     margin-left: 1rem;
   }
 }
-.about-icons > a:not(:last-child) {
-  margin-right: 0.5rem;
-}
-.about-icons > a > i {
-  font-size: 1.5rem;
-}
