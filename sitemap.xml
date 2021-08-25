@@ -2,6 +2,13 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://shubihu.github.io/cat/index.html</loc>
+    
+    <lastmod>2021-08-25</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>https://shubihu.github.io/2021/08/12/%E7%9F%A5%E7%BD%91%E7%BE%8A%E6%AF%9B/</loc>
     
     <lastmod>2021-08-25</lastmod>
@@ -81,14 +88,14 @@
 
   
   <url>
-    <loc>https://shubihu.github.io/tags/Linux/</loc>
+    <loc>https://shubihu.github.io/tags/Python/</loc>
     <lastmod>2021-08-25</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
-    <loc>https://shubihu.github.io/tags/Python/</loc>
+    <loc>https://shubihu.github.io/tags/Linux/</loc>
     <lastmod>2021-08-25</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
@@ -102,14 +109,14 @@
   </url>
   
   <url>
-    <loc>https://shubihu.github.io/tags/%E5%88%92%E6%B0%B4%E6%91%B8%E9%B1%BC/</loc>
+    <loc>https://shubihu.github.io/tags/%E8%96%85%E7%BE%8A%E6%AF%9B/</loc>
     <lastmod>2021-08-25</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
-    <loc>https://shubihu.github.io/tags/%E8%96%85%E7%BE%8A%E6%AF%9B/</loc>
+    <loc>https://shubihu.github.io/tags/%E5%88%92%E6%B0%B4%E6%91%B8%E9%B1%BC/</loc>
     <lastmod>2021-08-25</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
@@ -118,14 +125,14 @@
 
   
   <url>
-    <loc>https://shubihu.github.io/categories/Linux/</loc>
+    <loc>https://shubihu.github.io/categories/Python/</loc>
     <lastmod>2021-08-25</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
-    <loc>https://shubihu.github.io/categories/Python/</loc>
+    <loc>https://shubihu.github.io/categories/Linux/</loc>
     <lastmod>2021-08-25</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
