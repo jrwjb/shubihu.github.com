@@ -1,0 +1,1 @@
+window.game=new CatchTheCatGame({w:11,h:11,r:20,backgroundColor:16777215,parent:"catch-the-cat",statusBarAlign:"center",credit:"梳碧湖"})
